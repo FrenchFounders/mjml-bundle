@@ -6,8 +6,8 @@ use Symfony\Component\Process\Process;
 
 final class Mjml
 {
-    private const VERSION_4 = 4;
-    private const VERSION_BEFORE_4 = 3;
+    const VERSION_4 = 4;
+    const VERSION_BEFORE_4 = 3;
 
     /**
      * @var string
